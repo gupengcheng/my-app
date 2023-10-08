@@ -8,7 +8,7 @@ const ExampleComponent = () => {
 
   console.log('This is a log message in example');
   
-  axios.get('http://192.168.158.209:5000/')
+  axios.get('http://192.168.158.209:5039/info')
   .then(function (response) {
     console.log(response.data);
     setData(response.data);

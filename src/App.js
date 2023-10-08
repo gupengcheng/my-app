@@ -41,18 +41,18 @@ const imageWithText = <div>
 
 function App() {
   // return ImageWithText(logo, "这是一个Desc", "This is Show Text")
-  // ExampleComponent()
+  ExampleComponent()
   // axios.get('http://192.168.158.209:5000/')
   //     .then(res => {
   //       console.log(res);
   //       // setData(res)
   //     }).catch(err => console.error(err));
   // console.log('This is a log message');
-  return (
+  // return (
     // ExampleComponent()
     // MyRouteApp()
-    MyList()
-  );
+    // MyList()
+  // );
 
 
   // 使用阿里巴巴Antd框架来实现React UI交互
